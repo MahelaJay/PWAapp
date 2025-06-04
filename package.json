@@ -1,5 +1,5 @@
 {
-  "name": "pwa-app",
+  "name": "my-pwa-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,17 +7,11 @@
     "@capacitor/cli": "^6.2.0",
     "@capacitor/core": "^6.2.0",
     "@capacitor/ios": "^6.2.0",
-    "@types/react": "^19.0.6",
-    "@types/react-dom": "^19.0.3",
+    "@mobiscroll/react": "npm:@mobiscroll/react-next-trial@^5.33.0",
     "cra-template-typescript": "1.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1",
-    "workbox-core": "^6.5.4",
-    "workbox-expiration": "^6.5.4",
-    "workbox-precaching": "^6.5.4",
-    "workbox-routing": "^6.5.4",
-    "workbox-strategies": "^6.5.4"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -44,10 +38,11 @@
     ]
   },
   "devDependencies": {
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.5.0",
     "tailwindcss": "^3.4.17",
-    "workbox-cli": "^7.3.0",
-    "workbox-webpack-plugin": "^7.3.0"
+    "workbox-cli": "^7.3.0"
   }
 }
